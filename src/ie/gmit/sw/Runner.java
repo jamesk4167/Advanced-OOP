@@ -17,7 +17,9 @@ public class Runner {
 					 * Toggle View: 'Z'		
 					 * ----------------------------------------
 					 */
-						new GameWindow(); //Could be done nicer?
+					
+					    //created a singleton
+						GameWindow.getInstance(); 
 				} catch (Exception e) {
 					e.printStackTrace(); //Real lazy stuff here...
 				}
